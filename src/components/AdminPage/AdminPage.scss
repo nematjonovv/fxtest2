@@ -1,0 +1,42 @@
+
+  
+  .adminLoginDisActive {
+    // overflow: scroll;
+    background-color: #f8d7da;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    form{
+      display: flex;
+      flex-direction: column;
+      width: 15rem;
+      input{
+        width: 100%;
+        margin-bottom: 10px;
+        height: 28px;
+        outline: none;
+        padding: 10px 7px;
+        background-color: #29a045;
+        border: 1px solid #155724;
+        border-radius: 4px;
+        color: #fff;
+      }
+      input::placeholder{
+        color: #fff;
+      }
+    }
+  }
+  .adminLoginActive{
+    display: none;
+    z-index: 1;
+  }
+  .admin-page{
+    min-height: 100vh;
+    height: auto;
+  }
