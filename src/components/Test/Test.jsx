@@ -74,7 +74,7 @@ const Test = ({ onSubmit }) => {
         <>
           <div className="test">
             <div className="question-section">
-            <Link to={'/admin'}><img className="logo" src="../../public/fxPng.png" alt="" /></Link>
+            <Link to={'/admin'}><img className="logo" src="https://fximages.vercel.app/images/fxPng.png" alt="" /></Link>
               <div className="question-count">
                 <span>Савол {currentQuestion + 1}</span> / {data.length}
               </div>
